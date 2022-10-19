@@ -1,4 +1,25 @@
 music_genre = ["Rock", "Indie", "Jazz", "Lofi"]
+#The pop method removes the last element (ex: Lofi) and returns the array.
+#The array will read ["Rock", "Indie", "Jazz"].
+music_genre.pop
+puts music_genre
+
 number_of_songs = [10, 20, 30, 40]
+#The push method will push the object to the end of the array. You also need to add/assign an element.
+#I added (50) below. The push method will push the number 50 to the end of the array.
+#The array will then read [10, 20, 30, 40, 50]
+number_of_songs.push (50)
+puts number_of_songs
+
 cost_per_song = [0.99, 1.99, 2.99, 3.99]
+#The shift method removes the first element (ex: 0.99) and returns the array.
+#The array will read [1.99, 2.99, 3.99]
+cost_per_song.shift
+puts cost_per_song
+
 current_song = [true, true, false, false]
+#The unshift method will add elements to the front of the array. You also need to add/assign an element.
+#I added (false) below. The unshift method will add false to the beginning of the array.
+#The array will then read [false, true, true, false, false]
+current_song.unshift (false)
+puts current_song
