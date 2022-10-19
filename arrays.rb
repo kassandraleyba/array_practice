@@ -23,3 +23,23 @@ current_song = [true, true, false, false]
 #The array will then read [false, true, true, false, false]
 current_song.unshift (false)
 puts current_song
+
+#Demonstrate index positions:
+#This file holds variables of arrays listing 4 items in each array. 
+#In reference to index positions, the format is [0, 1, 2, 3].
+
+#For example:
+#music_genre = "Rock", "Indie", "Jazz", "Lofi"]
+#puts music_genre [2]
+#prints "Jazz"
+
+#When we add methods that change the position of the elements, 
+#keep in mind the index position format is still the same.
+
+#For example:
+#music_genre = music_genre = "Rock", "Indie", "Jazz", "Lofi"]
+#music_genre.shift
+#puts music_genre [2]
+#prints "Lofi"
+#This is because the shift method removes the first element.
+#So "Indie" moves into position [0].
