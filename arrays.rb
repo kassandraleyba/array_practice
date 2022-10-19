@@ -43,3 +43,8 @@ puts current_song
 #prints "Lofi"
 #This is because the shift method removes the first element.
 #So "Indie" moves into position [0].
+
+number = [1, 2, 3, 4, 5, 6]
+puts number.shuffle
+#The method shuffle will shuffle the numbers in the example above. 
+#It's the same way songs are shuffled on a playlist. Cool!
